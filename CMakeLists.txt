@@ -21,7 +21,11 @@ if(NOT DEFINED NOD_NODE_OS)
 endif()
 
 if(NOT DEFINED NOD_NODE_ARCH)
-    set(NOD_NODE_ARCH x64)
+    if(CMAKE_SIZEOF_VOID_P EQUAL 4)
+        set(NOD_NODE_ARCH x86)
+    else()
+        set(NOD_NODE_ARCH x64)
+    endif()
 endif()
 
 if(NOT DEFINED NOD_NODE_CONFIG)

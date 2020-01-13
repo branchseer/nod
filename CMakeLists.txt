@@ -38,7 +38,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(libnode)
 
-add_library(nod STATIC src/nod.cc)
+add_library(nod OBJECT src/nod.cc)
 set_property(TARGET nod PROPERTY CXX_STANDARD 11)
 
 target_include_directories(nod PUBLIC src/include)

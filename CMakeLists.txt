@@ -5,7 +5,7 @@ include(FetchContent)
 project(nod)
 
 if(NOT DEFINED NOD_NODE_VERSION)
-    set(NOD_NODE_VERSION v12.13.0)
+    set(NOD_NODE_VERSION v13.8.0)
 endif()
 
 if(NOT DEFINED NOD_NODE_OS)

@@ -5,7 +5,7 @@
 #ifndef NOD_NOD_H
 #define NOD_NOD_H
 
-#include <node/node_api.h>
+#include <node_api.h>
 
 #ifdef __cplusplus
 extern "C" {

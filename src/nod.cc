@@ -5,7 +5,7 @@
 #include <vector>
 #include <string>
 #include <cstring>
-#include <node/node_start.h>
+#include <node_start.h>
 #include "nod.h"
 
 namespace {
